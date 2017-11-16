@@ -3,7 +3,8 @@
     "env": "production",
     "rakegoals": [
       "db:schema:load",
-      "db:migrate"
+      "db:migrate",
+      "db:seed"
     ],
     "sidekiq": [
       "./config/sidekiq.yml"
