@@ -5,7 +5,8 @@
       "db:schema:load",
       "db:migrate",
       "db:seed",
-      "db:migrate"
+      "db:migrate",
+      "assets:precompile"
     ],
     "sidekiq": [
       "./config/sidekiq.yml"
