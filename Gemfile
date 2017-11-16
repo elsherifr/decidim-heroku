@@ -41,4 +41,5 @@ group :production do
   gem 'lograge'
   gem 'sentry-raven'
   gem 'sidekiq'
+  gem 'webpacker'
 end
