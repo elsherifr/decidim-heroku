@@ -4,7 +4,8 @@
     "rakegoals": [
       "db:schema:load",
       "db:migrate",
-      "db:seed"
+      "db:seed",
+      "db:migrate"
     ],
     "sidekiq": [
       "./config/sidekiq.yml"
