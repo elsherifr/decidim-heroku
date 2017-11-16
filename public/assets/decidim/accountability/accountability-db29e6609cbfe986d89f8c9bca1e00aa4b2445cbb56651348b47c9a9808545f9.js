@@ -1,1 +1,0 @@
-"use strict";$(function(){$(window).width()<768&&$(".category--section").click(function(t){$(t.currentTarget).next(".category--elements").toggleClass("active")})});
