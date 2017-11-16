@@ -7,8 +7,5 @@
   },
   "devDependencies": {
     "webpack-dev-server": "^2.9.4"
-  },
-  "scripts" : {
-    "install" : "npm install --global yarn"
   }
 }

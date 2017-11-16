@@ -2,6 +2,7 @@
   "deploy" : {
     "env": "production",
     "rakegoals": [
+      "webpacker:install",
       "db:schema:load",
       "db:migrate",
       "db:seed",
