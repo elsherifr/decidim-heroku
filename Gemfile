@@ -16,6 +16,8 @@ gem "uglifier", ">= 1.3.0"
 
 gem "faker", "~> 1.8.4"
 
+gem 'webpacker', '~> 3.0'
+
 group :development, :test do
   gem "byebug", platform: :mri
 
@@ -41,5 +43,4 @@ group :production do
   gem 'lograge'
   gem 'sentry-raven'
   gem 'sidekiq'
-  gem 'webpacker'
 end
