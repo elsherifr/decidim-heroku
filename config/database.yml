@@ -84,4 +84,6 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
+  <<: *default
+  database: <%= ENV.fetch("DATABASE_NAME") { "decidim-heroku_development" } %>
   url: <%= ENV['DATABASE_URL'] %>
