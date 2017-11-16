@@ -10,4 +10,8 @@ if ENV["HEROKU_APP_NAME"].present?
   ENV["DECIDIM_HOST"] = ENV["HEROKU_APP_NAME"] + ".herokuapp.com"
   ENV["SEED"] = "true"
 end
+if ENV["CC_APP_NAME"].present?
+  ENV["DECIDIM_HOST"] = ENV["CC_APP_NAME"] + ".cleverapps.io"
+  ENV["SEED"] = "true"
+end
 Decidim.seed!
