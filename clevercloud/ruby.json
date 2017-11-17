@@ -1,9 +1,7 @@
 {
   "deploy" : {
     "env": "production",
-    "rakegoals": [
-      "assets:precompile"
-    ],
+    "rakegoals": [],
     "sidekiq": [
       "./config/sidekiq.yml"
     ]
